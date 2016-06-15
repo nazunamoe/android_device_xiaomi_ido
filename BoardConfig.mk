@@ -50,7 +50,7 @@ BOARD_KERNEL_CMDLINE := console=115200,n8 androidboot.console=ttyHSL0 androidboo
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt $(LOCAL_PATH)/prebuilt/dt.img
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := ~/cm/bootimg/boot.img
 
 #TARGET_KERNEL_SOURCE := kernel/xiaomi/ido
 #TARGET_KERNEL_ARCH := arm64
